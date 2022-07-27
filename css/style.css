@@ -13,6 +13,11 @@
   height: 70px;
   border-bottom: 0.5px solid rgba(0, 0, 0, 0.13);
   padding: 25px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
 }
 .header-content .header-content-image {
   width: 180px;
@@ -38,9 +43,9 @@
 .main-content {
   width: 1500px;
   margin: auto;
+  margin-top: 100px;
 }
 .main-content .main-content-section1 {
-  margin-top: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
