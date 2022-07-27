@@ -6,6 +6,8 @@
 }
 
 .header-content {
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -13,8 +15,6 @@
   height: 70px;
   border-bottom: 0.5px solid rgba(0, 0, 0, 0.13);
   padding: 25px;
-  position: fixed;
-  top: 0;
   width: 100%;
   background-color: white;
   overflow: hidden;
@@ -159,6 +159,43 @@
   font-weight: 500;
   font-size: 14px;
   cursor: pointer;
+}
+.main-content .main-content-section3 {
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-content .main-content-section3 .main-content-section3-title {
+  font-family: "Roboto", sans-serif;
+  color: #1e014c;
+  font-size: 40px;
+}
+.main-content .main-content-section3 .main-content-section3-grid {
+  display: grid;
+  grid-template-columns: 1, 3fr;
+}
+.main-content .main-content-section3 .main-content-section3-grid .main-content-section3-grid-item {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  margin: 15px;
+  background-color: rgb(240, 240, 240);
+  padding: 20px;
+}
+.main-content .main-content-section3 .main-content-section3-grid .main-content-section3-grid-item .main-content-section3-grid-item-img {
+  border-radius: 50%;
+  width: 80px;
+}
+.main-content .main-content-section3 .main-content-section3-grid .main-content-section3-grid-item .main-content-section3-grid-item-title {
+  font-family: "Roboto", sans-serif;
+  padding: 5px 20px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.main-content .main-content-section3 .main-content-section3-grid .main-content-section3-grid-item .main-content-section3-grid-item-text {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
